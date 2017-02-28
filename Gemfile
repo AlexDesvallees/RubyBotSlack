@@ -1,10 +1,9 @@
 source "https://rubygems.org"
 
 gem 'slack-notifier'
-gem 'exception_notification'
-
+gem 'rack', '~> 1.6.5'
 gem 'sinatra'
-gem 'httparty'
+gem 'foreman'
 
 group :development do
   if RUBY_VERSION >= "2.0.0"
