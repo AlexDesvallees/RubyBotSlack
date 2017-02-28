@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'call_slack'
+require_relative './lib/call_slack'
 
 post '/' do
   text = params.fetch('text').strip
