@@ -4,7 +4,10 @@ notifier = Slack::Notifier.new "https://hooks.slack.com/services/T48BTCWKH/B47JV
   defaults channel: "#testbotslackchannel", username: "FournyJuniorBot"
 end
 
-notifier.ping "Je veux du sale mamene ! alexandre"
+def reponse()
+  notifier.ping "Je veux du sale mamene ! alexandre"
+end
+
 
 
 # => will message "Hello default"
