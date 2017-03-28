@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RUBY_MODULE" version="4">
   <component name="ModuleRunConfigurationManager">
-    <configuration default="false" name="call_slack" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="call_slack" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="SlackBot" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lib" />
@@ -20,7 +20,7 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="false" name="config.ru" type="RackRunConfigurationType" factoryName="Rack" temporary="true">
+    <configuration default="false" name="config.ru" type="RackRunConfigurationType" factoryName="Rack">
       <module name="SlackBot" />
       <RACK_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
