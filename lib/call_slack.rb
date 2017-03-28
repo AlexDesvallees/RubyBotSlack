@@ -5,7 +5,7 @@ notifier = Slack::Notifier.new "https://hooks.slack.com/services/T48BTCWKH/B47JV
 end
 
 def reponse()
-  notifier.ping "Je veux du sale mamene ! alexandre"
+  notifier.ping "test bot"
 end
 
 
